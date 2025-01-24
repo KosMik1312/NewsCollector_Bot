@@ -11,13 +11,11 @@ api_id = '111111'
 api_hash = 'd1b41......'
 
 # Указываем каналы для сбора и отправки сообщений
-from_channel_usernames = ['https://t.me/gtrkmariel',
-                          'https://t.me/topyo_media',
-                          'https://t.me/yoshka12_chp',
-                          'https://t.me/rian_ru'
+from_channel_usernames = ['https://t.me/aaaa',
+                          'https://t.me/bbb',
 ]  # Список каналов
 
-to_channel_username = 'https://t.me/newscollectorr' # Целевой канал
+to_channel_username = 'https://t.me/ccccc' # Целевой канал
 
 client = TelegramClient('gbot', api_id, api_hash,
                         system_version='4.16.30-vxCUSTOM',
